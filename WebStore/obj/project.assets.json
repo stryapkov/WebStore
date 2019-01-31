@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\computer\\Desktop\\WebStore\\WebStore\\WebStore.csproj",
+      "projectUniqueName": "C:\\Users\\computer\\Source\\Repos\\stryapkov\\WebStor\\WebStore\\WebStore.csproj",
       "projectName": "WebStore",
-      "projectPath": "C:\\Users\\computer\\Desktop\\WebStore\\WebStore\\WebStore.csproj",
+      "projectPath": "C:\\Users\\computer\\Source\\Repos\\stryapkov\\WebStor\\WebStore\\WebStore.csproj",
       "packagesPath": "C:\\Users\\computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\computer\\Desktop\\WebStore\\WebStore\\obj\\",
+      "outputPath": "C:\\Users\\computer\\Source\\Repos\\stryapkov\\WebStor\\WebStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
