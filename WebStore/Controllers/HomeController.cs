@@ -48,12 +48,10 @@ namespace WebStore.Controllers
 
         public IActionResult Details(int? id)
         {
-            foreach (var e in _employees)
-            {
-                if (e.Id == id)
-                    return View(e);
-            }
-            return View("Not found");
+            var employee = _employees.FirstOrDefault(e => e.Id == id);
+            if (employee is null)
+                return NotFound();
+            return View(employee);
         }
 
 
