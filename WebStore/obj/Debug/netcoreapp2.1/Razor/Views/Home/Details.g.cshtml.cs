@@ -43,7 +43,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(66, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa75796a52354952ba9337a6bcf0648d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0d64e78739b143ca80622e793f0bf89f", async() => {
                 BeginContext(72, 89, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Details</title>\r\n");
                 EndContext();
@@ -63,7 +63,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(170, 490, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b14220ed0b90451d8bffd3804516908b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20f2f0db79a54339ad41bfee3c230a54", async() => {
                 BeginContext(176, 219, true);
                 WriteLiteral("\r\n    <table>\r\n        <tr>\r\n            <td>Фамилия</td>\r\n            <td>Имя</td>\r\n            <td>Отчество</td>\r\n            <td>Возраст</td>\r\n            <td>Отдел</td>\r\n        </tr>\r\n        <tr>\r\n            <td>");
                 EndContext();
