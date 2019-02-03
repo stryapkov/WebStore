@@ -9,50 +9,26 @@ namespace WebStore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly List<EmployeeView> _employees = new List<EmployeeView>
-        {
-            new EmployeeView
-            {
-                Id = 1,
-                FirstName = "Иван",
-                SurName = "Иванов",
-                Patronymic = "Иванович",
-                Age = 25,
-                Department="Отдел ИТ"
-            },
-            new EmployeeView
-            {
-                Id = 2,
-                FirstName = "Петр",
-                SurName = "Петров",
-                Patronymic = "Петрович",
-                Age = 30,
-                Department="Отдел закупок"
-            },
-             new EmployeeView
-            {
-                Id = 3,
-                FirstName = "Берк",
-                SurName = "Анатолий",
-                Patronymic = "Иванович",
-                Age = 35,
-                Department="Руководство"
-            }
-        };
 
 
-        public IActionResult Index()
-        {
-            return View(_employees);
-        }
+        public IActionResult Index() => View();
+        public IActionResult Shop() => View();
+        public IActionResult ProductDetails() => View();
+        public IActionResult Login() => View();
+        public IActionResult ContactUs() => View();
+        public IActionResult CheckOut() => View();
+        public IActionResult Cart() => View();
+        public IActionResult BlogSingle() => View();
+        public IActionResult Blog() => View();
+        public IActionResult ErrorPage404() => View();
 
-        public IActionResult Details(int? id)
-        {
-            var employee = _employees.FirstOrDefault(e => e.Id == id);
-            if (employee is null)
-                return NotFound();
-            return View(employee);
-        }
+        //public IActionResult Details(int? id)
+        //{
+        //    var employee = _employees.FirstOrDefault(e => e.Id == id);
+        //    if (employee is null)
+        //        return NotFound();
+        //    return View(employee);
+        //}
 
 
         //public IActionResult AddEmployee(string FName, string SName, string Patronymic, int age, string Depart)
